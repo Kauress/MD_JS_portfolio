@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/* Body Styles*/
+
+body {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+h3, h1 {
+    text-transform: uppercase;
+}
+
+img{
+    max-width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+.main-header {
+    text-transform: uppercase;
+    grid-column: 1/span 1;
+    grid-row: auto;
+}
+.header-heading {
+    grid-column: 3/span 1;
+    grid-row: auto;
+    text-transform: uppercase;
+}
+.banner {
+    grid-column: 2/ span 1;
+    grid-row: auto;
+    justify-self: center;
+}
+.login {
+    grid-column: 4/span 1;
+    grid-row: auto;
+    text-transform: uppercase;
+}
+.navbar {
+    grid-column: 1/span all;
+    grid-row: auto;
+    text-align: center;
+
+}
+
+.header-pic {
+    grid-column: 2/span all;
+}
+.footer {
+ text-align: center;
+ }
+
+
+ .featurepic1 {
+   background-color: black;
+   width: 200px;
+   height: 200px;
+ }
+ .featurepic2 {
+   background-color: black;
+   width: 200px;
+   height: 200px;
+
+ }
+ .featurepic3 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+
+  }
+  .featurepic4 {
+     background-color: black;
+     width: 200px;
+     height: 200px;
+
+   }
+   .featurepic5 {
+      background-color: black;
+      width: 200px;
+      height: 200px;
+
+    }
+    .featurepic6 {
+       background-color: black;
+       width: 200px;
+       height: 200px;
+
+     }
+.tab-container {
+ text-align: center;
+}
+ button {
+  margin-top: 15px;
+  border: 1px solid grey;
+  background-color: #FFFFFF;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 10px;
+ }
